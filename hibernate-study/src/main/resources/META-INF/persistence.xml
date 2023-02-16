@@ -3,11 +3,10 @@
              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
 <persistence-unit name="hello">
-<!--    <class>chapter3.Member</class>-->
-    <class>chapter4.domain.Order</class>
-    <class>chapter4.domain.Item</class>
-    <class>chapter4.domain.Member</class>
-    <class>chapter4.domain.OrderItem</class>
+    <class>chapter5.domain.Order</class>
+    <class>chapter5.domain.Item</class>
+    <class>chapter5.domain.Member</class>
+    <class>chapter5.domain.OrderItem</class>
     <properties>
         <!-- 필수 속성 -->
         <property name="javax.persistence.jdbc.driver" value="org.h2.Driver"/>
