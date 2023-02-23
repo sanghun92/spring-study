@@ -38,7 +38,6 @@ public class MainApp {
             tx.begin();
             Order findOrder = em.find(Order.class, order.getId());
             Member findMember = findOrder.getMember();
-            List<OrderItem> orderItems = findOrder.getOrderItems();
             Delivery findDelivery = findOrder.getDelivery();
             tx.commit();
         } catch (Exception ex) {
